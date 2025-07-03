@@ -21,7 +21,7 @@ with open('one_hot_encoder_geography.pkl', 'rb') as file:
 with open('scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-
+st.set_page_config(page_title="PredictableAI")
 st.title('Predict the unpredictable Customer Churn')
 
 # Taking input from user
